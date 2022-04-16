@@ -1,0 +1,18 @@
+.section-style {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px;
+  background-color: var(--section-color-one);
+  text-align: center;
+  margin-bottom: 20px;
+  /* border-right: white 150px solid; */
+}
+.section-style h2 {
+  font-size: 17px;
+  letter-spacing: 0.2em;
+}
+@media (max-width: 500px) {
+  .section-style {
+    border: solid 1px grey;
+  }
+}

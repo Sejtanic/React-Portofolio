@@ -1,0 +1,23 @@
+.wrap-style {
+  width: 1100px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .wrap-style {
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 2px solid grey;
+  }
+}
+@media (max-width: 768px) {
+  .wrap-style {
+    width: 100%;
+    flex-direction: row;
+  }
+}

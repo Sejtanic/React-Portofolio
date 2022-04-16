@@ -1,0 +1,32 @@
+.description-style {
+  width: 600px;
+  height: 200px;
+  padding: 10px 20px;
+  /* background-color: var(--color-nav); */
+  letter-spacing: 0.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.description-style p {
+  /* font-size: 14px; */
+}
+.description-style,
+.description {
+  color: rgb(19, 15, 15);
+  font-weight: 600;
+  font-size: 15px;
+}
+.small {
+  font-size: 11px;
+}
+@media (max-width: 500px) {
+  .description-style {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .description-style {
+    width: 300px;
+  }
+}

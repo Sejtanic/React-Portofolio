@@ -1,0 +1,8 @@
+.about-style:hover {
+  cursor: pointer;
+  text-shadow: 1px 3px 8px rgb(168, 156, 156);
+  /* font-weight: bold; */
+}
+.about-style {
+  padding: 10px 20px;
+}

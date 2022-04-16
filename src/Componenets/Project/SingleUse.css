@@ -1,0 +1,13 @@
+.single-use-style {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.single-use-style h2 {
+  margin: 20px;
+}
+.single-use-text {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
