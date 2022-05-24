@@ -9,7 +9,7 @@ function Header(props) {
   return (
     <div className="header-style">
       <div className="name-style">
-        <p>sejtanic</p>
+        <p>HARIS</p>
         <p className="last-name">ŠEJTANIĆ</p>
       </div>
       <div className="nav-style">
